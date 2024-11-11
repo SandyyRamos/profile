@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F5F7;
+  color: #142D4C;
+  line-height: 1.5;
+  text-align: center;
+  padding: 30px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow:0 0 100px rgba(224, 209, 209, 0.1);
+}
+
+h1,h2,h3 {
+  font-family: sans-serif;
+  color: #385170;
+  padding:0;
+}
+
+.card {
+  background-color: #e4e7eb;
+  padding: 20px;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid #b7b9d7;
+  box-shadow:0 0 30px rgba(110, 116, 123, 0.3);
+}
+
+.container {
+  background-color: #EEF5FF;
+  padding: 200px;
+  width: 700px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: px solid #b6b7c3;
+  box-shadow:0 0 16px rgba(0, 0, 0, 0.2);
+}
+
+
+a:hover {
+  color:#163eae;
+}
+
+a {
+  font-family: Helvetica;
+  text-decoration: none;
+  color:#184d87;
+  font-size:18px;
+  font-weight: bold;
+  transition:0.4s ease;
+  padding: 2;
+  background-color: #F7F9F2;
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 400px;
+    }
+  }
